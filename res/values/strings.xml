@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">TTS-Sample</string>
+    <string name="add_text_to_speech">The graphical</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="say_text">Say it!</string>
+    <string name="en_locale">En</string>
+    <string name="es_locale">Es</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RadioGroup
+        android:id="@+id/language_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="17dp" >
+
+        <RadioButton
+            android:id="@+id/language_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/en_locale" />
+
+        <RadioButton
+            android:id="@+id/language_es"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/es_locale" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textToSpeak"
+        android:text="@string/say_text" />
+
+    <EditText
+        android:id="@+id/textToSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/language_selector"
+        android:layout_marginTop="58dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="@string/add_text_to_speech" />
+
+</RelativeLayout>
